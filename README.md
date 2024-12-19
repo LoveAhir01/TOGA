@@ -1,3 +1,40 @@
+# SWEN 777 Software Quality Assurance Research Proposal
+
+## Team Members
+1. Ahir, Love
+2. Patel, Jheel
+3. Sajjala, Swetha
+
+## TOGA
+
+This is the fork of the original TOGA implementation hosted on microsoft Github. All the new changes made to the TOGA as part of SWEN 777 Research Project will be committed here.
+
+## Progress
+
+### Midterm Submission (Oct 29th 2024)
+
+As part of midterm submission, we've replicated TOGA results by evaluating the model on our local machines. We evaluated the model on both the host and docker instance. The results are shown below.
+
+1. RQ1: As shown in the screenshots below, 82% of the assertions in ATLAS dataset are recognised by the grammer defined in the original study.
+
+![rq1_host_machine](resources/rq1_host_machine.png)
+
+2. RQ2: As shown in the screenshots below, TOGA is able to achieve 69% accuracy in assertion oracle inference. And exceptional inference model is able to achieve 86% accuracy with F1 score of .39.
+
+- Assertion orcale inference performance
+
+![rq2_assertion_host_machine](resources/rq2_assertion_host_machine.png)
+
+3. RQ3: As shown in the screenshots below, TOGA show performance second to Randoop in bug finding. 
+
+- Bug finding performance for only bug-reaching tests 
+
+![rq3_table3_host_machine](resources/rq3_table3_host_machine.png)
+
+- Bug finding perforamnce for 5 project sample along with recall performance
+
+![rq3_table3_FP_host_machine](resources/rq3_table3_FP_host_machine.png)
+
 # ToGA Artifact
 
 This repository contains the replication artifact for TOGA: A Neural Method for Test Oracle Generation to appear in ICSE 2022.
